@@ -29,5 +29,13 @@ namespace WebApplication1.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet]
+        [Route("GetMsg")]
+
+        public String GetMsg()
+        {
+            return "Hello from  GetMsg Action method";
+        }
     }
 }
